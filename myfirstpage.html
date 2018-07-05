@@ -4,7 +4,7 @@
       <title>My first web page</title>
     </head>
     <body>
-      <h1>This is my first web page lol</h1>
+      <h1>This is my first web page</h1>
       
       <h2>What this is</h2>
       <p>A simple page put together using HTML</p>
@@ -47,7 +47,37 @@
 
       <h2>Forms</h2>
       <ul>
-	<li>Form <xmp><form action="processingscript.php" method="post"</form></xmp></li>
+	<li>form <xmp><form action="processingscript.php" method="post"</form></xmp></li>
+	<li>input <xmp><input type="text"></xmp></li>
+	<li>textarea <xmp><textarea rows="5" cols="20">A big load of text</textarea></xmp></li>
+	<li>select
+		<xmp><select></xmp>
+		<ul>
+		  <li><xmp><option>Option 1</option></xmp></li>
+		  <li><xmp><option>Option 2</option></xmp></li>
+		  <li><xmp><option value="third option">Option 3</option></xmp></li>
+		</ul>
+		<xmp></select></xmp>
       </ul>
+
+      <h2>Sample form</h2>
+      <form action="contactus.php" method="post">
+	
+	<p>Name:</p>
+	<p><input type="text" name="name" value="Your name"></p>
+
+	<p>Species:</p>
+	<p><input name="species"></p>
+
+	<p>Comments:</p>
+	<p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+	<p>Are you:</p>
+	<p><input type="radio" name="areyou" value="male"> Male</p>
+	<p><input type="radio" name="areyou" value="female"> Female</p>
+    	<p><input type="radio" name="areyou" value="other"> Other</p>
+
+	<p><input type="submit"></p>
+      </form>
     </body>
   </html>
