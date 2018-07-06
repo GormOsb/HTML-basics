@@ -26,7 +26,9 @@ h2 {
 	background-color: #ccc;
 	margin: 20px;
 	padding: 40px;
-	border: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(230, 230, 230);
 }
 
 .notlink {
@@ -47,3 +49,15 @@ h2 {
 
 .word-spacing {
 	word-spacing: 1em;
+}
+
+.torsoen {
+	text-decoration: line-through;
+}
+
+.hover_test:hover {
+	color: rgb(180, 180, 180);
+	background-color: rgb(100, 100, 100);
+}
+	
+
