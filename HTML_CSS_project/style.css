@@ -1,0 +1,17 @@
+.logo {
+	height: 92px; width: 272px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 180px;
+}
+
+
+.input {
+	width: 550px;
+}
+
+.search_bar {
+	position: relative;
+	left: -135px;
+}
