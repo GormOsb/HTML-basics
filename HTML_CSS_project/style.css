@@ -1,11 +1,12 @@
 body, footer { 
 	color: black;
 	font-family: Arial, sans-serif;
-	font-size: 14px;
+	font-size: small;
 }
 
-a {
+a, a:visited {
 	text-decoration: none;
+	color: black;
 }
 
 footer p, footer a {
@@ -18,38 +19,71 @@ footer p, footer a {
 	display: block;
 	margin: 0 auto;
 	position: relative;
-	padding-top: 180px;
+	padding-top: 190px;
 }
 
 
 .input {
-	width: 550px;
+	width: 500px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #e4e4e4;
+	font-size: 15px;
+	height: 3em;
+	padding: 5px 0px 7px 5px;
 }
 
 .search_bar {
 	position: relative;
-	left: -135px;
+	left: -100px;
+	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .button {
 	width: 700px;
 }
 
-.button .search, .button .lucky, .signin {
+.button .search, .button .lucky, #signin {
 	display: inline;
 	padding: 2px 8px;
-	appearance: button;
-	-moz-appearance: button;
-	-webkit-appearance: button;
-	text-decoration: none; font: menu; color: ButtonText;	
+	word-spacing: normal;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
+	color: #757575;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 10px 15px;
+	margin: 3px;	
+}
+
+.button .search:hover, .button .lucky:hover {
+	color: black;
+}
+	
+
+#signin {
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	background: #4683ea;
+	color: white;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 12px;
 }
 
 .toolbar {
 	float: right;
-	width: 300px;
+	width: 290px;
 	padding: 15px 0;
+	word-spacing: 1.2em;
 }
 
+#apps {
+	word-spacing: normal;
+}
 
 footer {
   	display: flex;
@@ -63,19 +97,25 @@ footer {
 
 .country {
 	font-size: 15px;
-	padding: 0 20px;
+	padding-left: 27px;
+	border-top: 1px solid #e4e4e4;
+	border-width: thin;
 }
 
 .links {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	justify-content: space-between; 
+	justify-content: space-between;
+	word-spacing: 1.5em;
+	border-top: 1px solid #e4e4e4;
+	border-width: thin;
+	padding: 10px 0 5px 0;
 }
 
 .left {
 	justify-content: flex-start;
-	padding: 0 0 10px 20px;
+	padding: 0 0 10px 27px;
 }
 
 .right {
