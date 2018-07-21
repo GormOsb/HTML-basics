@@ -1,0 +1,53 @@
+body {
+	background-color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1 {
+	padding-top: 30px;
+}
+
+.subtitle {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+main {
+	background-color: #eee;
+	margin: 30px auto;
+	border-radius: 5px;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+ul {
+	text-align: left;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+li {
+	margin: 10px;
+}
+
+.img-div {
+	display: flex;
+	margin: 20px 10px;
+	background-color: white;
+	width: 99%;
+	justify-content: center;
+}
+
+figure {
+	max-width: 100%
+	height: auto;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+
